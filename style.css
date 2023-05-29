@@ -779,3 +779,248 @@ body{
 	font-family: 'Raleway';
 	margin-bottom: 19px;
 }
+
+
+
+
+
+
+
+
+/* TRY */
+.account{
+	position: relative;
+	width: 1110px;
+	height: 734px;
+	background-image: url(img/bg-main.svg);
+	left: 250px;
+}
+.container-Enter{
+	max-width: 628px;
+	height: 380px;
+	margin: 0 auto;
+	border: red solid;
+	background-color: #FFFFFF;
+	border-radius: 15px;
+}
+.img-close{
+	width: 24px;
+	height: 24px;
+}
+
+.text-close{
+	display: flex;
+	justify-content: space-between;
+	max-width: 628px;
+	height: 56px;
+	align-items: center;
+	margin-bottom: 24px;
+}
+.text-close p{
+	font-size: 24px;
+	font-weight: 400;
+	font-family: 'Raleway';
+}
+
+
+.email-enter{
+	width: 322px;
+	height: 58px;
+	margin-bottom: 20px;
+}
+.email-enter p{
+	font-size: 14px;
+	font-weight: 600;
+	font-family: 'Raleway';
+	margin-bottom: 4px;
+}
+.email-enter input[type="text"]{
+	width: 322px;
+	height: 40px;
+	background-color: #ECECEC;
+	border-radius: 10px;
+	font-size: 14px;
+	font-weight: 400;
+	padding-left: 13px;
+}
+.pass-enter p{
+	font-weight: 600;
+	font-size: 14px;
+	font-family: 'Raleway';
+	margin-bottom: 4px;
+}
+.pass-enter input[type="text"]{
+	width: 282px;
+	height: 40px;
+	background-color: #ECECEC;
+	border-radius: 10px;
+	font-size: 14px;
+	font-weight: 400;
+	padding-left: 13px;
+}
+
+.round{
+	position: relative;
+}
+.round label {
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border-radius: 50%;
+	cursor: pointer;
+	height: 28px;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 28px;
+}
+.round label:after {
+	border: 2px solid #fff;
+	border-top: none;
+	border-right: none;
+	content: "";
+	height: 6px;
+	left: 7px;
+	opacity: 0;
+	position: absolute;
+	top: 8px;
+	transform: rotate(-45deg);
+	width: 12px;
+  }
+
+
+
+
+
+
+
+
+
+
+/* Popup-User-Enter */
+.popup{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+    position: fixed;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    visibility: hidden;
+    background-color: rgba(0,0,0,0.4);
+}
+.popup:target{
+    opacity: 99;
+    visibility: visible;
+    transition: 0.5s all;
+}
+
+
+.container-Enter{
+    position: relative;
+    top: 180px;
+	max-width: 628px;
+	height: 380px;
+	margin: 0 auto;
+	background-color: #FFFFFF;
+	border-radius: 15px;
+    padding: 0px 24px;
+    border: #BABABA solid 1px;
+}
+.img-close{
+	width: 24px;
+	height: 24px;
+}
+
+.text-close{
+	display: flex;
+	justify-content: space-between;
+	max-width: 628px;
+	height: 56px;
+	align-items: center;
+	margin-bottom: 24px;
+}
+.text-close p{
+	font-size: 24px;
+	font-weight: 400;
+	font-family: 'Raleway';
+}
+
+
+.email-enter{
+	width: 322px;
+	height: 58px;
+	margin-bottom: 20px;
+}
+.email-enter p{
+	font-size: 14px;
+	font-weight: 600;
+	font-family: 'Raleway';
+	margin-bottom: 4px;
+}
+.email-enter input[type="text"]{
+	width: 322px;
+	height: 40px;
+	background-color: #ECECEC;
+	border-radius: 10px;
+	font-size: 14px;
+	font-weight: 400;
+	padding-left: 13px;
+}
+.pass-enter p{
+	font-weight: 600;
+	font-size: 14px;
+	font-family: 'Raleway';
+	margin-bottom: 4px;
+}
+.pass-enter input[type="text"]{
+	width: 282px;
+	height: 40px;
+	background-color: #ECECEC;
+	border-radius: 10px;
+	font-size: 14px;
+	font-weight: 400;
+	padding-left: 13px;
+}
+.pass-enter{
+    margin-bottom: 18px;
+}
+.round-remember{
+    margin-bottom: 20px;
+}
+.btn-reg-btn{
+    width: 322px;
+    height: 76px;
+}
+.btn-reg-btn button{
+    width: 322px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 10px 133.5px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Raleway';
+    margin-bottom: 16px;
+}
+.btn-reg-btn a{
+    color: #712525;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Raleway';
+    display: flex;
+    justify-content: center;
+}
+
+/* .icons{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 60px;
+} */
+.user{
+    width: 24px;
+    height: 24px;
+}
