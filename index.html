@@ -16,7 +16,7 @@
 			<div class="container-1">
 
 				<div class="lsi">
-					<img src="img/Logo white.svg" alt="">
+					<a href="#Home"><img src="img/Logo white.svg" alt=""></a>
 					<div class="search">
 						<input type="text" placeholder="Шукати..." class="input_search">
 					</div>
@@ -366,8 +366,8 @@
 				<div class="footer-text-5">
 					<p class="main-f-text">Швидкі посилання</p>
 					<div class="f-ps">
-						<label for=""><p>Контакти</p></label>
-						<label for=""><p>Особистий кабінет</p></label>
+						<a href="#"><p>Контакти</p></a>
+						<a href="#personal-data"><p>Особистий кабінет</p></a>
 					</div>
 				</div>
 
@@ -395,42 +395,236 @@
 	<!-- Popup-User-Enter -->
 	<div id="popup" class="popup">
 		<div class="container-Enter">
-
-			<div class="text-close">
-				<p>Вхід</p>
-				<a href=""><img class="img-close" src="img/x-symbol-svgrepo-com.svg" alt=""></a>
-			</div>
-
-
-			<div class="filds">
-				<div class="email-enter">
-					<p>Ел.почта або телефон</p>
-					<input type="text" placeholder="Введіть ел. пошту / телефон" required>
-				</div>
-
-
-				<div class="pass-enter">
-					<p>Пароль</p>
-					<input type="text" placeholder="Введіть пароль" required>
-				</div>
-			</div>
-
 			
-			<div class="round-remember">
-				<input type="checkbox" id="vehicle1">
-				<label for="vehicle1"> Запам'ятати</label>
-			</div>
+			<a href=""><img class="img-close" src="img/x-symbol-svgrepo-com.svg" alt=""></a>
+
+			<div class="content-enter">
+
+				<div class="content">
+
+					
+					
+					<div class="text-close">
+						<p>Вхід</p>
+					</div>
 
 
-			<div class="btn-reg-btn">
-				<button>Увійти</button>
-				<a href="#">Зареєструватися</a>
-			</div>
+					<div class="filds">
+						<div class="email-enter">
+							<p>Ел.почта або телефон</p>
+							<input type="email" placeholder="Введіть ел. пошту / телефон" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+						</div>
 
 
+						<div class="pass-enter">
+							<p>Пароль</p>
+							<input type="password" placeholder="Введіть пароль" required min="8" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}">
+						</div>
+					</div>
+
+					
+					<div class="round-remember">
+						<input type="checkbox" id="remember">
+						<label for="remember">Запам'ятати</label>
+					</div>
+
+
+					<div class="btn-reg-btn">
+						<button>Увійти</button>
+						<a href="#popup-up">Зареєструватися</a>
+					</div>
+
+				</div>
+
+			</div>	
 		</div>
 	</div>
 
+	<!-- Popup-User-up -->
+	<div id="popup-up" class="popup-up">
+		<div class="container-Enter">
+
+			<a href=""><img class="img-close" src="img/x-symbol-svgrepo-com.svg" alt=""></a>
+
+			<div class="content-enter">
+			
+				<div class="content">
+					<div class="text-close-up">
+						<p>Реєстрація</p>
+					</div>
+
+					<div class="filds">
+						<div class="email-enter">
+							<p>Ел.почта або телефон</p>
+							<input type="email" placeholder="Введіть ел. пошту / телефон" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+						</div>
+
+
+						<div class="pass-enter-up">
+							<p>Пароль</p>
+							<input type="password" placeholder="Введіть пароль" required min="8" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}">
+						</div>
+					</div>
+
+					<div class="btn-reg-enter">
+						<button>Зареєструватися</button>
+						<div class="p-a">
+							<p>Уже є аккаунт?</p>
+							<a href="#popup">Увійти</a>
+						</div>	
+					</div>
+
+				</div>	
+
+			</div>
+		</div>
+	</div>
+
+
+	<!-- Account-personal START -->
+	<div id="personal-data" class="account-personal-data">
+		<!-- HEADER -->
+		<header class="header-account">
+
+			<div class="header" id="Home">
+				<div class="container-1">
+	
+					<div class="lsi">
+						<a href="#Home"><img src="img/Logo white.svg" alt=""></a>
+						<div class="search">
+							<input type="text" placeholder="Шукати..." class="input_search">
+						</div>
+						<div class="icons">
+							<a href=""><img src="img/heart.svg" alt=""></a>
+							<a href="#popup"><img src="img/user.svg" alt=""></a>
+							<a href=""><img src="img/shopping-cart.svg" alt=""></a>
+						</div>
+					</div>
+	
+					<div class="menu">
+						<ul class="menu_ul">
+							<label for=""><a href="#Home"><li class="menu_text">Home</li></a></label>
+							<label for=""><a href="#Sale"><li class="menu_text">Sale</li></a></label>
+							<label for=""><a href="#Top-seller"><li class="menu_text">Top Saller</li></a></label>
+							<label for=""><a href="#New"><li class="menu_text">New</li></a></label>
+						</ul>
+					</div>
+	
+				</div>
+			</div>
+
+		</header>
+		<!-- HEADER END -->
+
+
+		<div class="account-display">
+
+			<div class="listOFblocks">
+				<button class="profile focus" href="#personal-data">
+					<div class="img-text">
+						<img src="img/user.svg" alt="">
+						<p>Ім'я користувача</p>
+					</div>
+				</button>
+
+
+				<button class="My-orders focus">
+					<div class="img-text">
+						<img src="img/orders.svg" alt="">
+						<p>Мої замовлення</p>
+					</div>
+				</button>
+
+
+				<button class="Wish-list focus">
+					<div class="img-text">
+						<img src="img/heart.svg" alt="">
+						<p>Список бажань</p>
+					</div>
+				</button>
+
+
+				<button class="history focus">
+					<div class="img-text">
+						<img src="img/search-zoom-in.svg" alt="">
+						<p>Історія перегляду</p>
+					</div>
+				</button>
+
+
+				<button class="notification focus">
+					<div class="img-text">
+						<img src="img/notification.svg" alt="">
+						<p>Сповіщення</p>
+					</div>
+				</button>
+
+				<button class="empty focus">
+					<div class="img-text">
+						
+						<p></p>
+					</div>
+				</button>
+
+				<button class="empty focus">
+					<div class="img-text">
+						
+						<p></p>
+					</div>
+				</button>
+			</div>
+
+
+			<div class="personal-data-blocks" id="personal-data">
+				<p class="personal-p">Особисті дані</p>
+
+				<div class="blocks-personal">
+					<div class="block-personal bg-personal">
+						<div class="svg-text-personal">
+							<img src="img/user.svg" alt="">
+							<p>Особисті дані</p>
+						</div>
+						<a href="#"><img src="img/arrow-down.svg" alt=""></a>
+					</div>
+
+					<div class="block-personal2 bg-personal">
+						<div class="svg-text-personal">
+							<img src="img/shopping-cart.svg" alt="">
+							<p>Якийсь текст</p>
+						</div>
+						<a href="#"><img src="img/arrow-down.svg" alt=""></a>
+					</div>
+
+					<div class="block-personal3 bg-personal">
+						<div class="svg-text-personal">
+							<img src="img/car.svg" alt="">
+							<p>Адреса доставки</p>
+						</div>
+						<a href="#"><img src="img/arrow-down.svg" alt=""></a>
+					</div>
+
+					<div class="block-personal4 bg-personal">
+						<div class="svg-text-personal">
+							<img src="img/lock.svg" alt="">
+							<p>Логін</p>
+						</div>
+						<a href="#"><img src="img/arrow-down.svg" alt=""></a>
+					</div>
+
+					<div class="block-personal5 bg-personal">
+							<div class="svg-text-personal">
+								<img src="img/sms.svg" alt="">
+								<p>Контакти</p>
+							</div>
+							<a href="#"><img src="img/arrow-down.svg" alt=""></a>
+					</div>
+					
+				</div>
+			</div>
+
+		</div>
+	</div>
+	<!-- Account-personal END-->
 
 
 <script src="script.js"></script>
