@@ -468,6 +468,7 @@ body{
 /* TEST-2 START */
 	.account-personal-data{
 		background-color: #FFFFFF;
+		height: 927px;
 	}
 	.account-display{
 		max-width: 1392px;
@@ -681,3 +682,153 @@ body{
 
 
 /* TEST-2 END */
+
+
+
+/* TEST-3 START */
+/* .My-orders CHOOSE START*/
+.choose-My-orders{
+	width: 1107px;
+	height: 36px;
+	border: #BABABA solid 1px;
+	display: flex;
+	align-items: center;
+	margin-bottom: 30px;
+}
+.text-my-orders{
+	display: flex;
+	justify-content: space-between;
+	column-gap: 40px;
+	width: 347px;
+	margin-left: 48px;
+	
+}
+.text-my-orders a{
+	color: #000000;
+}
+/* My-orders CHOOSE END*/
+
+
+/* My-orders EMPTY START*/
+.empty-my-orders{
+	width: 1107px;
+	height: 554px;
+	border: #BABABA solid 1px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.text-btn-my-orders{
+	text-align: center;
+}
+.sorry{
+	font-size: 28px;
+	font-weight: 600;
+	font-family: 'Inter';
+	text-align: center;
+	margin-bottom: 36px;
+}
+.mini-sorry{
+	font-size: 20px;
+	font-weight: 400;
+	font-family: 'Inter';
+	margin-bottom: 58px;
+}
+
+.empty-my-orders button{
+	width: 160px;
+	height: 54px;
+	background-color: #74BDD3;
+	border-radius: 10px;
+	font-size: 20px;
+	font-weight: 400;
+	font-family: 'Inter';
+}
+.empty-my-orders a{
+	color: #000000;
+}
+/* My-orders EMPTY END*/
+/* TEST-3 END */
+
+
+
+/* TEST-4 START */
+
+/* My-orders EMPTY START*/
+.empty-my-wish{
+	width: 1107px;
+	height: 620px;
+	border: #BABABA solid 1px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.text-btn-my-orders{
+	text-align: center;
+}
+.sorry{
+	font-size: 28px;
+	font-weight: 600;
+	font-family: 'Inter';
+	text-align: center;
+	margin-bottom: 36px;
+}
+.mini-sorry{
+	font-size: 20px;
+	font-weight: 400;
+	font-family: 'Inter';
+	margin-bottom: 58px;
+}
+
+.empty-my-wish button{
+	width: 175px;
+	height: 54px;
+	background-color: #74BDD3;
+	border-radius: 10px;
+	font-size: 20px;
+	font-weight: 400;
+	font-family: 'Inter';
+}
+.empty-my-wish a{
+	color: #000000;
+}
+/* My-orders EMPTY END*/
+/* TEST-4 END */
+
+/* WISH LIST POPUP START */
+/* .popup-wish-list{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+    position: fixed;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+	/* opacity: 0;
+	visibility: hidden; 
+    background-color: rgba(0,0,0,0.4);
+} */
+.popup-up:target{
+    opacity: 99;
+    visibility: visible;
+    transition: 0.5s all;
+}
+.popup-wish-container{
+	width: 440px;
+	height: 250px;
+	background-color: #FFFFFF;
+	border: #C4C1BC solid 1px;
+	border-radius: 10px;
+}
+
+.close-text-wish{
+	display: flex;
+	justify-content: space-between;
+}
+.close-text-wish img{
+	width: 24px;
+	height: 24px;
+}
+/* WISH LIST POPUP END*/

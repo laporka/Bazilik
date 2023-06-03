@@ -23,6 +23,9 @@ body{
 	display: flex;
 	justify-content: space-between;
 }
+header{
+	box-shadow: #000000 0px 0px 50px;
+}
 .header{
 	background-color: #FFFFFF;
 	height: 148px;
@@ -706,6 +709,7 @@ body{
 	height: 264px;
 	margin: 0 auto;
 	background-color: #FFFFFF;
+	box-shadow: #000000 0px 0px 50px;
 }
 .container-foot{
 	max-width: 1392px;
