@@ -332,6 +332,7 @@ body{
 }
 .img-sale{
 	margin-bottom: 11px;
+	position: relative;
 }
 .text-btn-new{
 	display: flex;
@@ -428,3 +429,19 @@ body{
 	margin-bottom: 19px;
 }
 /* FOOTER END */
+
+
+.newOF{
+	position: absolute;
+	top: 8px;
+	left: 8px;
+	border: #FFFFFF;
+	border-radius: 100px;
+	background-color: #AE2525 ;
+	color: #FFFFFF;
+	display: flex;
+	padding: 5px 10px;
+	font-size: 14px;
+	font-family: 'Raleway';
+	font-weight: 400;
+}

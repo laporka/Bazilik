@@ -332,6 +332,7 @@ body{
 }
 .img-sale{
 	margin-bottom: 11px;
+	position: relative;
 }
 .text-btn-top-seller{
 	display: flex;
@@ -428,3 +429,19 @@ body{
 	margin-bottom: 19px;
 }
 /* FOOTER END */
+
+
+.leaderOFsale{
+	position: absolute;
+	top: 8px;
+	left: 8px;
+	border: #FFFFFF;
+	border-radius: 100px;
+	background-color: #E9BE4F ;
+	color: #FFFFFF;
+	display: flex;
+	padding: 5px 10px;
+	font-size: 14px;
+	font-weight: 400;
+	font-family: 'Raleway';
+}
